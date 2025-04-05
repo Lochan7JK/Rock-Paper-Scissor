@@ -1,0 +1,50 @@
+body{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-image: url(./images/background.avif);
+    background-size: cover;
+}
+#heading{
+    font-size: 50px;
+    color: white;
+}
+#first-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 50vh;
+}
+#opponent-choice{
+    width: 240px;
+    height: 240px;
+    /* background-color: aquamarine; */
+}
+
+#user-choice{
+    width: 240px;
+    height: 240px;
+    /* background-color: yellowgreen; */
+}
+
+#user-score, #opponent-score{
+    color: white;
+}
+
+#choices{
+    width: 240px;
+    height: 80px;
+    /* background-color: cyan; */
+    margin: 0 auto;
+}
+/* #choices:hover{
+    transform: scale(1.1);
+} */
+#choices img{
+    width: 80px;
+    height: 80px;
+}
+
+img{
+    border: none;
+}
